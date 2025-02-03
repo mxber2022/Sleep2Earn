@@ -58,3 +58,14 @@ ios/.xcode.env.local
 # Package lock files
 #package-lock.json
 #yarn.lock
+
+# Ignore Podfile lock
+ios/Podfile.lock
+
+# Ignore Xcode workspace-related files
+ios/Sleep2EarnApp.xcworkspace/
+ios/Sleep2EarnApp.xcodeproj/project.xcworkspace/
+ios/Sleep2EarnApp.xcodeproj/xcuserdata/
+
+# Ignore Derived Data and build artifacts
+ios/build/
