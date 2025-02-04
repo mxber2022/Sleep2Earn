@@ -54,7 +54,14 @@ export default function RootLayout() {
   return (
     <View style={{ flex: 1 }}>
       {/* Stack Navigator for managing screens */}
-      <Stack />
+      <Stack>
+      <Stack.Screen
+          name="(tabs)"
+          options={{
+            headerShown: false,
+          }}
+        />
+      </Stack>
 
       {/* AppKit for wallet connection */}
       <AppKit />
